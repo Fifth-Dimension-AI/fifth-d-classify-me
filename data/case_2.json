@@ -1,0 +1,123 @@
+{
+    "classes": [
+        {
+            "class_id": "I1",
+            "class_name": "Inform",
+            "class_description": "The user is providing a piece of information"
+        },
+        {
+            "class_id": "R1",
+            "class_name": "Request",
+            "class_description": "The user is requesting something"
+        },
+        {
+            "class_id": "Q1",
+            "class_name": "Question",
+            "class_description": "The user is asking a question to gain information"
+        },
+        {
+            "class_id": "C1",
+            "class_name": "Command",
+            "class_description": "The user is giving a command or directive"
+        },
+        {
+            "class_id": "A1",
+            "class_name": "Agreement",
+            "class_description": "The user is agreeing with something that has been said"
+        },
+        {
+            "class_id": "D1",
+            "class_name": "Disagreement",
+            "class_description": "The user is disagreeing with something that has been said"
+        },
+        {
+            "class_id": "T1",
+            "class_name": "Thanks",
+            "class_description": "The user is expressing gratitude"
+        },
+        {
+            "class_id": "Ap1",
+            "class_name": "Apology",
+            "class_description": "The user is apologizing for an action or statement"
+        },
+        {
+            "class_id": "S1",
+            "class_name": "Suggestion",
+            "class_description": "The user is suggesting a course of action"
+        },
+        {
+            "class_id": "F1",
+            "class_name": "Feedback",
+            "class_description": "The user is providing feedback or evaluation"
+        }
+    ],
+    "options": {
+        "multilabel": true
+    },
+    "queries": [
+        {
+            "query": "I'm going to Tottenham Court Road, can you tell me how to get there?",
+            "class_id": ["I1", "R1"]
+        },
+        {
+            "query": "What time does the store close?",
+            "class_id": ["Q1"]
+        },
+        {
+            "query": "Please turn off the lights before you leave.",
+            "class_id": ["C1"]
+        },
+        {
+            "query": "Yes, I think that's a great idea!",
+            "class_id": ["A1"]
+        },
+        {
+            "query": "Actually, I don't think that's how it works.",
+            "class_id": ["D1"]
+        },
+        {
+            "query": "Thank you so much for your help!",
+            "class_id": ["T1"]
+        },
+        {
+            "query": "I'm really sorry for being late.",
+            "class_id": ["Ap1"]
+        },
+        {
+            "query": "Maybe you should try restarting your computer.",
+            "class_id": ["S1"]
+        },
+        {
+            "query": "I found the presentation very informative and engaging.",
+            "class_id": ["F1"]
+        },
+        {
+            "query": "Is this the best method to solve the problem, or should we consider alternatives?",
+            "class_id": ["Q1", "S1"]
+        },
+        {
+            "query": "Sorry for the misunderstanding, and thank you for clarifying.",
+            "class_id": ["Ap1", "T1"]
+        },
+        {
+            "query": "I don't agree, but I'll do it anyway.",
+            "class_id": ["D1", "C1"]
+        },
+        {
+            "query": "Dear Team, As you're aware, we've been facing significant challenges with our current software deployment strategy, which has impacted our overall productivity. I've been researching alternative approaches and would like to suggest we explore the adoption of a continuous deployment system. This could potentially streamline our workflows and improve deployment efficiency. Looking forward to your feedback and suggestions.",
+            "class_id": ["I1", "S1", "F1"]
+        },
+        {
+            "query": "Hello, I hope this message finds you well. I'm reaching out to request some information on our project's current status. Specifically, I'm interested in understanding the progress we've made towards our Q3 objectives, any major roadblocks we've encountered, and the strategies we're employing to overcome these challenges. Additionally, if there are any resources or support you need from my end, please don't hesitate to let me know. Best regards.",
+            "class_id": ["R1", "Q1"]
+        },
+        {
+            "query": "To whom it may concern, I regret to inform you that due to personal reasons, I will not be able to meet the deadline for submitting my part of the project. I understand the inconvenience this may cause to the team and am sincerely sorry for any trouble this may result in. I'm currently taking steps to mitigate the delay, including working extra hours once I'm able to and seeking assistance from colleagues to cover some of my responsibilities. Thank you for your understanding and support during this time.",
+            "class_id": ["I1", "Ap1"]
+        },
+        {
+            "query": "Hi, I wanted to express my gratitude for your support and guidance over the past few months. Your mentorship has been invaluable to me, and I've learned a great deal that I'm sure will be beneficial in my career moving forward. Also, I'd like to apologize for any inconvenience my mistakes may have caused you. I appreciate your patience and the constructive feedback you've provided, helping me grow professionally. Thank you once again.",
+            "class_id": ["T1", "Ap1", "F1"]
+        }
+    ]
+}

@@ -1,0 +1,232 @@
+{
+    "classes": [
+        {
+            "class_id": "S1",
+            "class_name": "Strawberry Ice Cream",
+            "class_description": "With real strawberries"
+        },
+        {
+            "class_id": "C1",
+            "class_name": "Chocolate Ice Cream",
+            "class_description": "With real chocolate"
+        },
+        {
+            "class_id": "V1",
+            "class_name": "Vanilla Ice Cream",
+            "class_description": "Made with real Madagascan vanilla"
+        },
+        {
+            "class_id": "SC1",
+            "class_name": "Salted Caramel Ice Cream",
+            "class_description": "With rich, buttery caramel and a hint of sea salt"
+        },
+        {
+            "class_id": "H1",
+            "class_name": "Honeycomb Ice Cream",
+            "class_description": "With crunchy honeycomb pieces"
+        },
+        {
+            "class_id": "M1",
+            "class_name": "Marshmallow Ice Cream",
+            "class_description": "With soft, fluffy marshmallows"
+        },
+        {
+            "class_id": "CC1",
+            "class_name": "Clotted Cream Ice Cream",
+            "class_description": "With rich, creamy clotted cream"
+        },
+        {
+            "class_id": "CO1",
+            "class_name": "Coconut Ice Cream",
+            "class_description": "Made with real coconut milk"
+        },
+        {
+            "class_id": "RR1",
+            "class_name": "Rum and Raisin Ice Cream",
+            "class_description": "With rum-soaked raisins"
+        },
+        {
+            "class_id": "B1",
+            "class_name": "Banana Ice Cream",
+            "class_description": "Made with ripe bananas"
+        },
+        {
+            "class_id": "M2",
+            "class_name": "Mint Chocolate Chip Ice Cream",
+            "class_description": "With refreshing mint and chocolate chips"
+        },
+        {
+            "class_id": "P1",
+            "class_name": "Pistachio Ice Cream",
+            "class_description": "With real pistachio nuts"
+        },
+        {
+            "class_id": "L1",
+            "class_name": "Lemon Sorbet",
+            "class_description": "With real lemon juice"
+        },
+        {
+            "class_id": "R1",
+            "class_name": "Raspberry Sorbet",
+            "class_description": "With real raspberries"
+        },
+        {
+            "class_id": "MG1",
+            "class_name": "Mango Ice Cream",
+            "class_description": "Made with real mango pulp"
+        },
+        {
+            "class_id": "P2",
+            "class_name": "Peach Ice Cream",
+            "class_description": "With juicy peaches"
+        },
+        {
+            "class_id": "C2",
+            "class_name": "Coffee Ice Cream",
+            "class_description": "Made with real brewed coffee"
+        },
+        {
+            "class_id": "T1",
+            "class_name": "Tiramisu Ice Cream",
+            "class_description": "With mascarpone, coffee, and cocoa"
+        },
+        {
+            "class_id": "G1",
+            "class_name": "Green Tea Ice Cream",
+            "class_description": "Made with matcha green tea"
+        },
+        {
+            "class_id": "BL1",
+            "class_name": "Black Licorice Ice Cream",
+            "class_description": "With real black licorice extract"
+        },
+        {
+            "class_id": "C3",
+            "class_name": "Cinnamon Ice Cream",
+            "class_description": "With ground cinnamon"
+        },
+        {
+            "class_id": "S2",
+            "class_name": "Sesame Ice Cream",
+            "class_description": "With toasted sesame seeds"
+        },
+        {
+            "class_id": "A1",
+            "class_name": "Almond Ice Cream",
+            "class_description": "With roasted almonds"
+        },
+        {
+            "class_id": "F1",
+            "class_name": "Fig Ice Cream",
+            "class_description": "With real figs"
+        },
+        {
+            "class_id": "CH1",
+            "class_name": "Cherry Ice Cream",
+            "class_description": "With real cherries"
+        },
+        {
+            "class_id": "O1",
+            "class_name": "Oreo Ice Cream",
+            "class_description": "With crushed Oreo cookies"
+        },
+        {
+            "class_id": "PB1",
+            "class_name": "Peanut Butter Ice Cream",
+            "class_description": "With creamy peanut butter"
+        }
+    ],
+    "options": {
+        "multilabel": true
+    },
+    "queries": [
+        {
+            "query": "Can I get a scoop of vanilla and a scoop of chocolate?",
+            "class_id": ["V1", "C1"]
+        },
+        {
+            "query": "I'm craving for some coconut ice cream today.",
+            "class_id": ["CO1"]
+        },
+        {
+            "query": "Do you have a mix of rum and raisin with clotted cream ice cream?",
+            "class_id": ["RR1", "CC1"]
+        },
+        {
+            "query": "I want a large banana ice cream with extra marshmallow on top.",
+            "class_id": ["B1", "M1"]
+        },
+        {
+            "query": "Could I have a mango ice cream and a green tea ice cream, please?",
+            "class_id": ["MG1", "G1"]
+        },
+        {
+            "query": "One order of pistachio and a small cup of coffee ice cream.",
+            "class_id": ["P1", "C2"]
+        },
+        {
+            "query": "My kids would love a scoop each of honeycomb and Oreo ice cream.",
+            "class_id": ["H1", "O1"]
+        },
+        {
+            "query": "I'll try the fig ice cream and maybe a scoop of the sesame one.",
+            "class_id": ["F1", "S2"]
+        },
+        {
+            "query": "Can you mix almond and cherry ice creams in one bowl?",
+            "class_id": ["A1", "CH1"]
+        },
+        {
+            "query": "I'd like two scoops, one tiramisu and one peanut butter ice cream.",
+            "class_id": ["T1", "PB1"]
+        },
+        {
+            "query": "A pint of salted caramel ice cream and a small lemon sorbet, please.",
+            "class_id": ["SC1", "L1"]
+        },
+        {
+            "query": "Give me a scoop of cinnamon ice cream with a side of black licorice ice cream.",
+            "class_id": ["C3", "BL1"]
+        },
+        {
+            "query": "I'm looking for directions to the nearest park.",
+            "class_id": []
+        },
+        {
+            "query": "What's the weather like tomorrow?",
+            "class_id": []
+        },
+        {
+            "query": "Can you recommend a good book to read?",
+            "class_id": []
+        },
+        {
+            "query": "What time does the movie start tonight?",
+            "class_id": []
+        },
+        {
+            "query": "I need a recipe for a chocolate cake.",
+            "class_id": []
+        },
+        {
+            "query": "How do I fix a flat tire?",
+            "class_id": []
+        },
+        {
+            "query": "What are the best headphones for running?",
+            "class_id": []
+        },
+        {
+            "query": "Can you play some music by The Beatles?",
+            "class_id": []
+        },
+        {
+            "query": "What are the symptoms of a cold?",
+            "class_id": []
+        },
+        {
+            "query": "How do I make a cup of coffee?",
+            "class_id": []
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "classes": [
+        {
+            "class_id": "Y1",
+            "class_name": "Yes",
+            "class_description": "User responded with an affirmative"
+        },
+        {
+            "class_id": "N1",
+            "class_name": "No",
+            "class_description": "User responded with a negative"
+        }
+    ],
+    "options": {
+        "multilabel": false
+    },
+    "queries": [
+        {
+            "query": "I consent to the processing of my personal data",
+            "class_id": ["Y1"]
+        },
+        {
+            "query": "Do not send me marketing emails",
+            "class_id": ["N1"]
+        },
+        {
+            "query": "Yes, I agree to the terms and conditions",
+            "class_id": ["Y1"]
+        },
+        {
+            "query": "No, I do not accept the terms of service",
+            "class_id": ["N1"]
+        },
+        {
+            "query": "Sure, you can use my email for notifications",
+            "class_id": ["Y1"]
+        },
+        {
+            "query": "I'd prefer not to receive further communications",
+            "class_id": ["N1"]
+        },
+        {
+            "query": "Okay, go ahead with the data processing",
+            "class_id": ["Y1"]
+        },
+        {
+            "query": "Please exclude me from this list",
+            "class_id": ["N1"]
+        },
+        {
+            "query": "That's fine, I'm okay with it",
+            "class_id": ["Y1"]
+        },
+        {
+            "query": "I disagree with these conditions",
+            "class_id": ["N1"]
+        },
+        {
+            "query": "Absolutely, I'm in agreement",
+            "class_id": ["Y1"]
+        },
+        {
+            "query": "Unfortunately, I have to say no to that",
+            "class_id": ["N1"]
+        }
+    ]
+}
