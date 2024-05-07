@@ -1,0 +1,11 @@
+[server]
+headless = true
+enableCORS=false
+enableXsrfProtection=false
+enableWebsocketCompression=false
+
+[theme]
+primaryColor="#228B22"  # Forest Green
+backgroundColor="#FFFFFF"  # Cream
+secondaryBackgroundColor="#E6E6FA"  # Lavender
+font="sans serif"

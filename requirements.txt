@@ -1,0 +1,25 @@
+pydantic
+uvicorn
+flask
+fastapi
+openai
+python-dotenv
+requests
+streamlit
+pandas
+# for stretch
+langchain
+langchain-community
+langchain_openai
+python-dotenv
+PyPDF2
+streamlit
+streamlit-extras
+PyPDF2
+openai
+tiktoken
+azure-cognitiveservices-search-imagesearch
+azure-ai-ml
+azure-ai-documentintelligence
+pypdf
+faiss-cpu
