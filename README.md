@@ -1,5 +1,3 @@
-# 5D Take Home Technical Test
-
 ## Specification
 
 Your task is to build a simple web application to do text classification using a large language model. `gpt-3.5-turbo` will be sufficient for the task and should incur minimal cost. The main endpoint for your classification will be a POST request to `/classify`. The JSON payload will have the following structure:
