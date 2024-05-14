@@ -1,0 +1,20 @@
+version: '3'
+services:
+  classifier:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./app:/app
+    ports:
+      - 8000:5000
+    command: python /app/classifier.py
+  streamlit:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./app_streamlit:/app_streamlit
+    ports:
+      - 8501:8501
+    command: streamlit run /app_streamlit/Home.py
